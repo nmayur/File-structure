@@ -9,4 +9,31 @@ body {
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Roboto_Regular";
+  src: url("/fonts/Roboto-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto_Medium";
+  src: url("/fonts/Roboto-Medium.ttf") format("trueType");
+}
+@font-face {
+  font-family: "Roboto_Bold";
+  src: url("/fonts/Roboto-Bold.ttf") format("truetype");
+}
+.roboto_regular_base {
+  font-family: "Roboto_Regular";
+  color: #343A40;
+}
+
+.roboto_medium_base {
+  font-family: "Roboto_Medium";
+  color: #343A40;
+}
+
+.roboto_bold_base {
+  font-family: "Roboto_Bold";
+  color: #343A40;
+}
+
 /*# sourceMappingURL=mainStyles.css.map */

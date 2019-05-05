@@ -1,0 +1,16 @@
+// we will import out external fonts here and create our font families here
+
+@font-face {
+    font-family: 'Roboto_Regular';
+    src: url('/fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto_Medium';
+    src: url('/fonts/Roboto-Medium.ttf') format('trueType');
+}
+
+@font-face {
+    font-family: 'Roboto_Bold';
+    src: url('/fonts/Roboto-Bold.ttf') format('truetype');
+}
