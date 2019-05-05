@@ -1,13 +1,39 @@
 // here we will create our major fonts styles
-
-
-
 // roboto regular
 .roboto_regular_base{
     font-family: 'Roboto_Regular';
     color: $pri_dark;
 }
 
+.robo_reg_26{
+    @extend .roboto_regular_base;
+    font-size: 26px;
+}
+
+.robo_reg_22{
+    @extend .roboto_regular_base;
+    font-size: 22px;
+}
+
+.robo_reg_16{
+    @extend .roboto_regular_base;
+    font-size: 16px;
+}
+
+.robo_reg_12{
+    @extend .roboto_regular_base;
+    font-size: 12px;
+}
+
+.robo_reg_26, .robo_reg_22, .robo_reg_16, .robo_reg_12{
+    &.blue{
+        color: $pri_blue;
+    }
+
+    &.gray{
+        color: $pri_gray;
+    }
+}
 
 // roboto medium
 .roboto_medium_base{
@@ -15,10 +41,68 @@
     color: $pri_dark;
 }
 
+.robo_med_26{
+    @extend .roboto_medium_base;
+    font-size: 26px;
+}
 
+.robo_med_22{
+    @extend .roboto_medium_base;
+    font-size: 22px;
+}
+
+.robo_med_16{
+    @extend .roboto_medium_base;
+    font-size: 16px;
+}
+
+.robo_med_12{
+    @extend .roboto_medium_base;
+    font-size: 12px;
+}
+
+.robo_med_26, .robo_med_22, .robo_med_16, .robo_med_12{
+    &.blue{
+        color: $pri_blue;
+    }
+
+    &.gray{
+        color: $pri_gray;
+    }
+}
 
 // robot bold
 .roboto_bold_base{
     font-family: 'Roboto_Bold';
     color: $pri_dark;
+}
+
+.robo_bold_26{
+    @extend .roboto_bold_base;
+    font-size: 26px;
+}
+
+.robo_bold_22{
+    @extend .roboto_bold_base;
+    font-size: 22px;
+}
+
+.robo_bold_16{
+    @extend .roboto_bold_base;
+    font-size: 16px;
+}
+
+.robo_bold_12{
+    @extend .roboto_bold_base;
+    font-size: 12px;
+}
+
+.robo_bold_26, .robo_bold_22, .robo_bold_16, .robo_bold_12{
+    &.blue{
+        color: $pri_blue;
+    }
+    
+    &.gray{
+        color: $pri_gray;
+    }
 }
