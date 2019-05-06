@@ -7,17 +7,28 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <ul class="navbar-nav navbar_links ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" href="/about-us.html">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="/contact-us.html">Contact Us</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
+
+<script>
+    //set Active link according to pages
+    var origin = window.location.origin;
+    var page_location = window.location.href.replace(origin + '/', '').trim();
+    // console.log(page_location);
+    $('.navbar_links a[href*="' + page_location + '"]').addClass('active');
+    if (page_location == "") {
+        $('.navbar_links a[href="/"]').addClass('active');
+    }
+</script>
