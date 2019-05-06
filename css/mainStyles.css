@@ -79,6 +79,60 @@ body {
 .robo_bold_26.gray, .robo_bold_22.gray, .robo_bold_16.gray, .robo_bold_12.gray {
   color: #C0C0C0; }
 
+.footer_wraper {
+  margin-top: 100px;
+  padding: 50px 0px; }
+
+.foot_para {
+  color: #C0C0C0;
+  line-height: 22px; }
+
+.foot_links_wrap {
+  display: flex;
+  justify-content: space-around; }
+  .foot_links_wrap .foot_links_list {
+    list-style: none;
+    padding: 0px; }
+    .foot_links_wrap .foot_links_list li {
+      margin-bottom: 5px; }
+      .foot_links_wrap .foot_links_list li a {
+        font-family: 'Roboto_Bold';
+        font-size: 14px;
+        color: #000000;
+        transition: all 0.2s ease; }
+        .foot_links_wrap .foot_links_list li a:hover {
+          color: #007BFF;
+          text-decoration: none; }
+
+.foot_social_list {
+  list-style: none;
+  padding: 0px; }
+  .foot_social_list li {
+    margin-bottom: 5px; }
+    .foot_social_list li a {
+      font-family: 'Roboto_Bold';
+      font-size: 14px;
+      color: #000000;
+      transition: all 0.2s ease; }
+      .foot_social_list li a i {
+        margin-right: 10px; }
+      .foot_social_list li a:hover {
+        color: #007BFF;
+        text-decoration: none; }
+
+.foot_sub_form {
+  position: relative; }
+  .foot_sub_form input {
+    font-size: 14px;
+    background: #F1F1F1; }
+  .foot_sub_form .submit_btn {
+    border: none;
+    background: transparent;
+    position: absolute;
+    top: 2px;
+    right: 3px;
+    font-size: 22px; }
+
 .home_header {
   min-height: 80vh;
   display: flex;
@@ -90,5 +144,17 @@ body {
   font-size: 28px;
   line-height: 36px;
   margin: 20px 0px; }
+
+.mob_hidden {
+  display: block; }
+  @media only screen and (max-width: 767px) {
+    .mob_hidden {
+      display: none; } }
+
+.tab_hidden {
+  display: block; }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .tab_hidden {
+      display: none; } }
 
 /*# sourceMappingURL=mainStyles.css.map */

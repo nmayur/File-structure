@@ -15,5 +15,25 @@ body{
 @import './_colors';
 @import './_typography';
 
+
+// sections
+@import './_navbar';
+@import './_footer';
+
 // pages
 @import './_home';
+
+
+.mob_hidden{
+    display: block;
+    @include responsive_mobile(){
+        display: none;
+    }
+}
+
+.tab_hidden{
+    display: block;
+    @include responsive_tab(){
+        display: none;
+    }
+}
