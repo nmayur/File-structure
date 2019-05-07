@@ -32,6 +32,10 @@
             }
         }
     }
+
+    @include responsive_mobile(){
+        justify-content: space-around;
+    }
 }
 
 .foot_social_list {
