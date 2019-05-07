@@ -1,0 +1,17 @@
+.about_intro{
+    min-height: 65vh;
+    display: flex;
+    align-items: center;
+}
+
+.logo_wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+
+    img{
+        opacity: 0.5;
+        width: 150px;
+    }
+}

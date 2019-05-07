@@ -1,0 +1,18 @@
+.navbar > .container{
+    border-bottom: solid 1px $pri_gray; 
+    padding-bottom: 10px;
+
+    @include responsive_mobile(){
+        padding-bottom: 0px;
+    }
+}
+
+.nav-link, .navbar-brand{
+    color: #000;
+}
+
+.nav-link{
+    &.active{
+        border-bottom: solid 3px $pri_blue;
+    }
+}
